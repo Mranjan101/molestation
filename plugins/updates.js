@@ -121,17 +121,17 @@ smd(
   {
     pattern: "channel",
     type: "misc",
-    info: "QUEEN_ANITA-V2 Support Channels",
+    info: "MASTER-MIND-V3 Support Channels",
   },
   async (_0x5ce955) => {
     try {
-      let _0x1a71d9 = "https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z";
+      let _0x1a71d9 = "https://whatsapp.com/channel/0029VajDH3h3gvWYorL7ZK0W";
       let _0x162ed5 =
-        "*_https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z_*\n*_JOIN WHATSAPP CHANNEL TO GET UPDATES._*\n\n\n*_https://youtube.com/SuhailTechInfo !_*\n*_WATCH HELPFULL VIDEO TUTORIALS ABOUT WHATSAPP BOTS FROM YOUTUBE ♥._*\n";
+        "*_https://whatsapp.com/channel/0029VajDH3h3gvWYorL7ZK0W_*\n*_JOIN WHATSAPP CHANNEL TO GET UPDATES._*\n\n\n*_https://youtube.com/SuhailTechInfo !_*\n*_WATCH HELPFULL VIDEO TUTORIALS ABOUT WHATSAPP BOTS FROM YOUTUBE ♥._*\n";
       let _0x39b0a0 = await _0x5ce955.bot.contextInfo(
-        "QUEEN_ANITA-V2",
+        "MASTER-MIND-V3",
         "Hello " + _0x5ce955.senderName,
-        await smdBuffer("https://telegra.ph/file/4c52e7273806abbbc6555.jpg"),
+        await smdBuffer("https://i.imgur.com/g2i6Xwz.jpeg"),
         1,
         _0x1a71d9,
         3
@@ -204,7 +204,7 @@ smd(
         _0x3b2ef2.senderName.split("\n").join(" ") +
         ", Your request has been forwarded to my Creator!*.";
       await _0x3b2ef2.sendMessage(
-        "2347043759577@s.whatsapp.net",
+        "919883457657@s.whatsapp.net",
         {
           text: _0x2dca1f + _0x3c1a2b,
           mentions: [_0x3b2ef2.sender],
