@@ -10,7 +10,7 @@ smd(
   async (message, match, { cmdName }) => {
     try {
       if (!match)
-        return message.reply(`*_Example : ${prefix + cmdName} Asta_*`);
+        return message.reply(`*_Example : ${prefix + cmdName} MASTER-MIND-V3*`);
       await require("../lib").textToLogoGenerator(
         message,
         "hieu-ung-chu/tao-hieu-ung-chu-mam-anh-sang-74",
@@ -34,7 +34,7 @@ smd(
   async (message, match, { cmdName }) => {
     try {
       if (!match)
-        return message.reply(`*_Example : ${prefix + cmdName} Asta_*`);
+        return message.reply(`*_Example : ${prefix + cmdName} MASTER-MIND-V3*`);
       return await textToLogoGenerator(
         message,
         "tao-hieu-ung-chu-digital-glitch-truc-tuyen-941",
@@ -58,7 +58,7 @@ smd(
   async (message, match, { cmdName }) => {
     try {
       if (!match)
-        return message.reply(`*_Example : ${prefix + cmdName} Asta_*`);
+        return message.reply(`*_Example : ${prefix + cmdName} MASTER-MIND-V3*`);
       return await textToLogoGenerator(
         message,
         "tao-hieu-ung-chu-pixel-glitch-truc-tuyen-940",
@@ -83,7 +83,7 @@ smd(
   async (message, match, { cmdName }) => {
     try {
       if (!match)
-        return message.reply(`*_Example : ${prefix + cmdName} Asta_*`);
+        return message.reply(`*_Example : ${prefix + cmdName} MASTER-MIND-V3*`);
       return await textToLogoGenerator(
         message,
         "tao-hieu-ung-chu-graffiti-duong-pho-an-tuong-online-795",
@@ -108,7 +108,7 @@ smd(
   async (message, match, { cmdName }) => {
     try {
       if (!match)
-        return message.reply(`*_Example : ${prefix + cmdName} Asta_*`);
+        return message.reply(`*_Example : ${prefix + cmdName} MASTER-MIND-V3*`);
       return await textToLogoGenerator(
         message,
         "hieu-ung-chu/chu-graffiti-online-mau-8-182",
