@@ -1,5 +1,5 @@
 {
-    "name": "QUEEN_ANITA-V2",
+    "name": "MASTER-MIND-V3",
     "version": "1.0.0",
     "description": "Simple Whatsapp Bot",
     "main": "index.js",
@@ -9,7 +9,7 @@
         "start": "pm2 start . --attach --name Anita_0.1",
         "stop": "pm2 stop Anita_0.1"
     },
-    "author": "QUEEN_ANITA-V2",
+    "author": "MASTER-MIND-V3",
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
         "@hapi/boom": "^9.1.4",
@@ -72,10 +72,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/DeeCeeXxx/QUEEN_ANITA-V2.git"
+        "url": "git+.git"
     },
     "bugs": {
-        "url": "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2/issues"
+        "url": "/issues"
     },
-    "homepage": "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2#readme"
+    "homepage": "#readme"
 }
