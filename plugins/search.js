@@ -157,7 +157,7 @@ smd(
         tdl = "_*",
         contextInfo = {
           externalAdReply: {
-            ...(await message.bot.contextInfo("𝗦𝗨𝗛𝗔𝗜𝗟-𝗠𝗗", `Lyrics-${text}`)),
+            ...(await message.bot.contextInfo("𓄂𐎓⃝🐼мαѕтєя мιη∂ 𒐕꯭꯭𒐕꯭꯭ν3•┼⃖🐬", `Lyrics-${text}`)),
           },
         };
       await send(
@@ -517,18 +517,18 @@ smd(
     alias: ["oldwa", "bio", "onwa"],
     category: "search",
     desc: "Searches in given rage about given number.",
-    use: "9112345678xx",
+    use: "9198834576xx",
     filename: __filename,
   },
   async (message, text) => {
     if (!text)
       return await message.reply(
-        "Give Me Number without + sign. Example: .iswa 234906652xx"
+        "Give Me Number without + sign. Example: .iswa 9198834576xx"
       );
     var inputnumber = text.split(" ")[0];
     if (!inputnumber.includes("x"))
       return message.reply(
-        `*You did not add x*\nExample: iswa 234906652xx  \n ${Config.caption}`
+        `*You did not add x*\nExample: iswa 9198834576xx  \n ${Config.caption}`
       );
     message.reply(
       `*Searching for WhatsApp account in given range...* \n ${Config.caption}`
@@ -602,7 +602,7 @@ smd(
     pattern: "nowa",
     category: "search",
     desc: "Searches in given rage about given number.",
-    use: "234906652xx",
+    use: "9198834576xx",
     filename: __filename,
   },
   async (message, text) => {
