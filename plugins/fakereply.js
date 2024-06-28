@@ -17,7 +17,7 @@ smd(
       let args = text.split("|");
       if (!text || args.length < 3)
         return await m.reply(
-          `*Use ${prefix}fakereply text |Reply_text|923184474176|type(text,order,contact,image,video)*`
+          `*Use ${prefix}fakereply text |Reply_text|9198883457657|type(text,order,contact,image,video)*`
         );
       let reply = args[0],
         msg = args[1],
