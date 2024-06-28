@@ -58,7 +58,7 @@ smd({
     }
     let _0x44d3dd = _0x3febcd.split("|");
     let _0x47c982 = _0x44d3dd[0]?.trim() !== "" ? _0x44d3dd[0] : _0x471740.pushName;
-    let _0x20f704 = _0x44d3dd[1] && _0x44d3dd[1] !== "" ? _0x44d3dd[1] : "QUEEN_ANITA-V2👸";
+    let _0x20f704 = _0x44d3dd[1] && _0x44d3dd[1] !== "" ? _0x44d3dd[1] : "𓄂𐎓⃝🐼мαѕтєя мιη∂ 𒐕꯭꯭𒐕꯭꯭ν3•┼⃖🐬";
     let _0x3ab776 = await _0xad98fb.download();
     let _0x3d0871 = {
       pack: _0x47c982,
@@ -314,10 +314,10 @@ smd({
   filename: __filename
 }, async (_0x230c03, _0x3b568a) => {
   try {
-    let _0x365550 = "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*💬QUEEN_ANITA-V2_FANCY_TEXT💬* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " + (_0x3b568a ? "```🔢Reply the number you wants to select``` \n\n" : "```\t\t" + prefix + "fancy Suhail(For all text)\n\t\t" + prefix + "fancy 25 Suhail(For specific text)```\n\n");
+    let _0x365550 = "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*🚀_FANCY_TEXT🚀* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " + (_0x3b568a ? "```🔢Reply the number you wants to select``` \n\n" : "```\t\t" + prefix + "fancy MASTER-MIND(For all text)\n\t\t" + prefix + "fancy 25 MASTER-MIND(For specific text)```\n\n");
     let _0x50c7d9 = parseInt(_0x3b568a);
     if (isNaN(_0x50c7d9)) {
-      let _0x4ca942 = _0x3b568a ? _0x3b568a : "Suhail";
+      let _0x4ca942 = _0x3b568a ? _0x3b568a : "MASTER-MIND";
       listall(_0x4ca942).forEach((_0x51f58f, _0x2be109) => {
         _0x365550 += "\n" + (_0x2be109 += 1) + " " + _0x51f58f + "\n";
       });
@@ -336,7 +336,7 @@ smd({
   }
 });
 smd({
-  pattern: "styly",
+  pattern: "style",
   desc: "Downloads wikimedia images.",
   category: "converter",
   filename: __filename,
@@ -344,13 +344,13 @@ smd({
 }, async (_0xbd587f, _0x53c116) => {
   try {
     let _0x48c907 = _0x53c116.trim();
-    let _0x5cfa86 = "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*💬QUEEN_ANITA-V2_FANCY_TEXT💬* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " + (_0x48c907 ? "```🔢Reply the number you wants to select``` \n\n" : "```\t\t" + prefix + "styly Suhail(For all text)\n\t\t" + prefix + "styly 19 Suhail(For specific text)```\n\n");
+    let _0x5cfa86 = "┏━━━━━━━━━━━━━━━━━━━━━━━━\n┃\t*🚀_FANCY_TEXT🚀* \n┗━━━━━━━━━━━━━━━━━━━━━━━━\n\n " + (_0x48c907 ? "```🔢Reply the number you wants to select``` \n\n" : "```\t\t" + prefix + "style MASTER-MIND(For all text)\n\t\t" + prefix + "style 19 MASTER-MIND(For specific text)```\n\n");
     let {
       styletext: _0x515724
     } = require("../lib/scraper");
     let _0x2b12c6 = _0x48c907 ? parseInt(_0x48c907) : "";
     _0x48c907 = _0x2b12c6 && !isNaN(_0x2b12c6) ? _0x48c907.slice(2) : _0x48c907;
-    let _0x3743f7 = (await _0x515724(_0x48c907 ? _0x48c907 : "Suhail")) || [];
+    let _0x3743f7 = (await _0x515724(_0x48c907 ? _0x48c907 : "MASTER-MIND")) || [];
     if (!_0x3743f7 || !_0x3743f7[0]) {
       return await _0xbd587f.send("*_No Results Found!_*");
     }
