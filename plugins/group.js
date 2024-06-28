@@ -113,7 +113,7 @@ smd(
         var _0x2fe2c7 = "" + _0x2608ab + _0x3a49e9;
         var _0x539d8f = {
           externalAdReply: {
-            title: "𝗦𝗨𝗛𝗔𝗜𝗟-𝗠𝗗",
+            title: "𓄂𐎓⃝🐼мαѕтєя мιη∂ 𒐕꯭꯭𒐕꯭꯭ν3•┼⃖🐬",
             body: "" + _0x37b490,
             renderLargerThumbnail: true,
             thumbnail: log0,
@@ -178,7 +178,7 @@ smd(
           _0x511884.toString().padStart(2, "0");
         var _0x56eaaf = {
           externalAdReply: {
-            title: "𝗦𝗨𝗛𝗔𝗜𝗟-𝗠𝗗",
+            title: "𓄂𐎓⃝🐼мαѕтєя мιη∂ 𒐕꯭꯭𒐕꯭꯭ν3•┼⃖🐬",
             body: _0x5f4890.subject,
             renderLargerThumbnail: true,
             thumbnail: log0,
@@ -842,7 +842,7 @@ cmd(
         " 🔖\n";
       for (let _0x502431 of _0x5d614a) {
         if (!_0x502431.id.startsWith("2347043759577")) {
-          _0x392a2d += " 📍 @" + _0x502431.id.split("@")[0] + "\n";
+          _0x392a2d += " 🚀 @" + _0x502431.id.split("@")[0] + "\n";
         }
       }
       await _0x1ed055.bot.sendMessage(
