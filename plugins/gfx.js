@@ -6,7 +6,7 @@ const gfxFunc = async (cld, { Void, text, smd: cmdName }, sendError = true) => {
  try {
    text += ": ser";
    let exampleText = `Example  : *${prefix + cmdName}* David`;
-   let infoText = `*Separate the text with ':' sign*\n*Example : ${prefix + cmdName} Anita : Bot*`;
+   let infoText = `*Separate the text with ':' sign*\n*Example : ${prefix + cmdName} MASTER : MIND*`;
    let name = text.split(":")[0];
    let command = cmdName.toLowerCase();
 
@@ -195,7 +195,7 @@ smd(
    try {
      let exampleText = `*Separate the text with _:_ sign!*\n*Example : ${prefix + cmdName} Suhail _:_ Bot*`;
      if (!text) {
-       let menu = `┌───〈 *ɢꜰx ᴍᴇɴᴜ*  〉───◆\n│╭─────────────···▸\n┴│▸\n⬡│▸ ${gfxx.join(" \n⬡│▸ ")} \n┬│▸\n│╰────────────···▸▸\n└───────────────···▸\n\n\t *USE: ${prefix + cmdName} Suhail:Md*\n_To get All Results with single Cmd!_\n`;
+       let menu = `┌───〈 *ɢꜰx ᴍᴇɴᴜ*  〉───◆\n│╭─────────────···▸\n┴│▸\n⬡│▸ ${gfxx.join(" \n⬡│▸ ")} \n┬│▸\n│╰────────────···▸▸\n└───────────────···▸\n\n\t *USE: ${prefix + cmdName} MASTER-MIND-V3*\n_To get All Results with single Cmd!_\n`;
        return await cld.sendUi(cld.chat, { caption: menu });
      }
 
