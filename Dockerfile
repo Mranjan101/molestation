@@ -1,7 +1,7 @@
 FROM node:16
-RUN git clone  /root/DeeCeeXxx
-WORKDIR /root/
+RUN git clone https://github.com/Mranjan101/molestation /root/molestation
+WORKDIR /root/molestation
 RUN npm install
 EXPOSE 3000
 CMD ["npm","start" ] 
-#David
+#molestation
