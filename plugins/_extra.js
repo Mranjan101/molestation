@@ -184,12 +184,12 @@ smd({
         edit: _0x2d7cf6
       }, "asta", _0x4e7c63);
     } catch (_0x28ce7e) {}
-    let _0x50f17a = " *乂 Q U E E N _ A N I T A - V 2 - ＢＯＴ ＦＥＡＴＵＲＥ*\n\n\n  ◦ _Total Features ➪ " + _0x4cf8ed + "_\n  \n*◦ BOT FEATURES*\n\n      Plugins ➪ " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
+    let _0x50f17a = " *乂 M A S T E R _ M I N D - V 3 - ＢＯＴ ＦＥＡＴＵＲＥ*\n\n\n  ◦ _Total Features ➪ " + _0x4cf8ed + "_\n  \n*◦ BOT FEATURES*\n\n      Plugins ➪ " + Object.values(_0x4de967.commands).filter(_0x54d4bf => _0x54d4bf.pattern).length + "_\n      _Msg Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x2376a3 => _0x2376a3.on).length + "_\n      _Call Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x54a19b => _0x54a19b.call).length + "_\n      _Group Listener ➪ " + Object.values(_0x4de967.commands).filter(_0x35381c => _0x35381c.group).length + "_\n  \n\n" + Config.caption;
     await _0x4e7c63.bot.relayMessage(_0x4e7c63.chat, {
       requestPaymentMessage: {
         currencyCodeIso4217: "PK",
         amount1000: _0x4cf8ed * 1000,
-        requestFrom: "2348039607375@s.whatsapp.net",
+        requestFrom: "919883457657@s.whatsapp.net",
         noteMessage: {
           extendedTextMessage: {
             text: _0x50f17a,
@@ -380,7 +380,7 @@ smd({
   try {
     let _0x587b99 = _0x41dfb5.split(" ")[0].trim();
     if (!_0x587b99) {
-      return await _0x4cdec8.reply("*Need URL! Use " + prefix + "ss https://github.com/DeeCeeXxx/QUEEN_ANITA-V2*");
+      return await _0x4cdec8.reply("*Need URL! Use " + prefix + "ss https://github.com/MASTER-HACKER-INDIA/MASTER-MIND-V3*");
     }
     let _0x358290 = await ssweb(_0x587b99);
     if (_0x358290 && _0x358290.status == "200") {
@@ -394,7 +394,7 @@ smd({
     await _0x4cdec8.error(_0x126b07 + "\n\ncommand : myip", _0x126b07, "*Request Denied!*");
   }
 });
-let tmpUrl = "https://telegra.ph/file/b8e96b599e0fa54d25940.jpg";
+let tmpUrl = "https://i.imgur.com/g2i6Xwz.jpeg";
 const secmailData = {};
 smd({
   pattern: "tempmail",
