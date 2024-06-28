@@ -87,7 +87,7 @@ smd(
         return await cld.send(
           "*_provide text to update profile status!_*\n*_Example: " +
             prefix +
-            "bio QUEEN_ANITA-V2_*"
+            "bio MASTER-MIND-V3*"
         );
       }
       await cld.bot.updateProfileStatus(text);
@@ -270,7 +270,7 @@ smd(
   },
   async (message, isPattern, { store }) => {
     try {
-      message.react("🫡");
+      message.react("🤡");
       const personalChats = await store.chats
         .all()
         .filter((chat) => chat.id.endsWith(".net"))
@@ -316,7 +316,7 @@ smd(
   },
   async (message, isPattern, { store, Void }) => {
     try {
-      message.react("🫡");
+      message.react("👻");
       const groupChats = await store.chats
         .all()
         .filter((chat) => chat.id.endsWith("@g.us"))
@@ -383,7 +383,7 @@ cmd(
         return message.reply(
           "Please Give Me User Name, \n *Example : " +
             prefix +
-            "vcard QUEEN_ANITA-V2* "
+            "vcard MASTER-MIND-V3* "
         );
       }
 
@@ -575,7 +575,7 @@ cmd(
     desc: "download viewOnce Message.",
     category: "whatsapp",
     use: "<query>",
-    react: "👀",
+    react: "🚀",
     filename: __filename,
   },
   async (message, args) => {
