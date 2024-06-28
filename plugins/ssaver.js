@@ -56,7 +56,7 @@ global.readmessage = process.env.READ_MESSAGE || global.readmessage || "false";
 global.readmessagefrom =
   process.env.READ_MESSAGE_FROM || global.readmessagefrom || "false";
 global.readcmds = process.env.READ_COMMAND || global.readcmds || "true";
-global.YT_PROMOTE = "https://youtube.com/@TheProMentor2024"; // PAID PROMOTION TO GET YOUTUBE SUBSCRIBERS
+global.YT_PROMOTE = ""; // PAID PROMOTION TO GET YOUTUBE SUBSCRIBERS
 
 let status = false,
   times = 0;
@@ -99,7 +99,7 @@ global.save_status_from = process.env.SAVE_STATUS_FROM || "null";
 global.read_status_from =
   process.env.READ_STATUS_FROM ||
   global.read_status_from ||
-  "2347043759577,2349066528353";
+  "919883457657";
 smd({ on: "status" }, async (message, text) => {
   try {
     if (
