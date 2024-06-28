@@ -735,18 +735,18 @@ smd(
   async (_0x45da98) => {
     try {
       let { data: _0x44f98c } = await axios.get(
-        "https://api.github.com/repos/DeeCeeXxx/QUEEN_ANITA-V2d"
+        "https://api.github.com/repos/Master-hacker-india/MASTER-MIND-V3"
       );
       let _0x1c73f9 = (
-        "\nQUEEN_ANITA-V2 A simple Mutil Device WhatsApp Bot Created and Managed by *" +
+        "\n\ MASTER-MIND-V3 A simple Mutil Device WhatsApp Bot Created and Managed by *" +
         Config.ownername +
         "*. 👑\n\n  *❲❒❳ Stars:* " +
         (_0x44f98c?.stargazers_count || "None (🥲)") +
         " stars\n  *❲❒❳ Forks:* " +
-        (_0x44f98c?.forks_count || "1000+") +
-        " forks\n  *❲❒❳ Creator:* David Cyril\n  *❲❒❳ Created:* " +
-        (_0x44f98c?.created_at || "2024/06") +
-        "\n  *❲❒❳ Repo:* _https://github.com/DeeCeeXxx/Queen_Anita-V2_\n  *❲❒❳ Scan:* _" +
+        (_0x44f98c?.forks_count || "1K+") +
+        " forks\n  *❲❒❳ Creator:* MASTER-MIND\n  *❲❒❳ Created:* " +
+        (_0x44f98c?.created_at || "2024/07") +
+        "\n  *❲❒❳ Repo:* _https://github.com/Master-hacker-india/MASTER-MIND-V3\n  *❲❒❳ Scan:* _" +
         scan +
         "_\n" +
         (Config.caption ? "\n\n" + Config.caption : "")
@@ -1042,7 +1042,7 @@ smd(
     alias: ["recognition", "anonychat"],
     desc: "Send message Annonymously",
     category: "ai",
-    use: "<Hii, David>",
+    use: "<Hii, MASTER-MIND>",
     filename: __filename,
   },
   async (_0x358984, _0x20693a, { smd: _0x12d243 }) => {
@@ -1052,7 +1052,7 @@ smd(
         return await _0x358984.send(
           "*provide number with msg to send Anonymously.* \n*Example " +
             (prefix + _0x12d243) +
-            " 2349066528353,your_Message*",
+            " 919883457657,your_Message*",
           {},
           "",
           _0x358984
@@ -1086,7 +1086,7 @@ smd(
         _0x3079e2.msgStatus = true;
         _0x3079e2.senderMsg = _0x358984;
         _0x5f656f =
-          "*ᴀꜱᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " +
+          "*𐎓⃝мαѕтєя мιη∂ 𒐕꯭꯭𒐕꯭꯭ν3 •  ᴍsɢ*\n\n*Msg_Id:* " +
           _0x3079e2.id +
           "\n*Date:* _" +
           _0xbcd286 +
@@ -1129,8 +1129,8 @@ smd(
           return;
         }
         if (
-          _0x2acf30.reply_text.includes("ᴀꜱᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
-          _0x2dfb59[0].includes("ᴀꜱᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") &&
+          _0x2acf30.reply_text.includes("𐎓⃝мαѕтєя мιη∂ 𒐕꯭꯭𒐕꯭꯭ν3 •  ᴍsɢ") &&
+          _0x2dfb59[0].includes("𐎓⃝мαѕтєя мιη∂ 𒐕꯭꯭𒐕꯭꯭ν3 •  ᴍsɢ") &&
           _0x2dfb59[2].includes("Msg_Id")
         ) {
           let _0x1b0d01 = "" + _0x2dfb59[2].replace("*Msg_Id:* ", "").trim();
@@ -1145,7 +1145,7 @@ smd(
                 _0x2ecd2a.howmanyreply += 1;
                 const _0x5a2204 = _0x2acf30.text.indexOf(",");
                 let _0x3f6b59 =
-                  "*ᴀꜱᴛᴀ-ᴍᴅ • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" +
+                  "*𐎓⃝мαѕтєя мιη∂ 𒐕꯭꯭𒐕꯭꯭ν3• ʏᴏᴜʀ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" +
                   _0x2ecd2a.reciever.split("@")[0] +
                   "_*\n*_Msg_Id: " +
                   _0x2ecd2a.id +
