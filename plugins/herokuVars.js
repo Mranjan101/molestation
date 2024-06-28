@@ -268,13 +268,13 @@ smd(
       );
     }
     let _0x762894 = (
-      "\n   👤 *" +
-      (Config.botname ? Config.botname : "QUEEN_ANITA-V2") +
-      " MODS* 👤\n   \n" +
+      "\n   🚀 *" +
+      (Config.botname ? Config.botname : "MASTER-MIND-V3") +
+      " MODS* 🚀\n   \n" +
       _0x10bccf
     ).trim();
     return await _0xf78029.reply(
-      "https://telegra.ph/file/5fd51597b0270b8cff15b.png",
+      "https://i.imgur.com/g2i6Xwz.jpeg",
       {
         caption: _0x762894,
         mentions: _0x1babe2,
