@@ -12,14 +12,14 @@ global.sudo = process.env.SUDO
   : "null";
 global.owner = process.env.OWNER_NUMBER
   ? process.env.OWNER_NUMBER.replace(/[\s+]/g, "")
-  : "2349066528353";
+  : "919883457657";
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
-  "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg,https://telegra.ph/file/7275967ae7b5283fada69.jpg";
+  "https://i.imgur.com/Oqa8xcK.jpeg,https://i.imgur.com/g2i6Xwz.jpeg";
 global.userImages =
   process.env.USER_IMAGES ||
-  "https://telegra.ph/file/7275967ae7b5283fada69.jpg,https://telegra.ph/file/c3049cd3ac77f371e119e.jpg,https://telegra.ph/file/a22200a780671e0e32383.jpg,https://telegra.ph/file/85fe388fdd14930cf86a0.jpg,https://telegra.ph/file/ba9ced500f9eca7db8acb.mp4";
+  "https://i.imgur.com/g2i6Xwz.jpeg";
 ///===========[global iMPORTS]====================//
 
 module.exports = {
@@ -27,11 +27,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`©QUEEN_ANITA-V2`",
-  author: process.env.PACK_AUTHER || "QUEEN_ANITA-V2",
-  packname: process.env.PACK_NAME || "A N I T A",
-  botname: process.env.BOT_NAME || "QUEEN_ANITA-V2",
-  ownername: process.env.OWNER_NAME || "David Cyril",
+  caption: process.env.CAPTION || "`𓄂𐎓⃝🐼мαѕтєя мιη∂ 𒐕꯭꯭𒐕꯭꯭ν3•┼⃖🐬`",
+  author: process.env.PACK_AUTHER || "𓄂𐎓⃝🐼мαѕтєя мιη∂ 𒐕꯭꯭𒐕꯭꯭ν3•┼⃖🐬",
+  packname: process.env.PACK_NAME || "𓄂𐎓⃝🐼мαѕтєя мιη∂ 𒐕꯭꯭𒐕꯭꯭ν3•┼⃖🐬",
+  botname: process.env.BOT_NAME || "𓄂𐎓⃝🐼мαѕтєя мιη∂ 𒐕꯭꯭𒐕꯭꯭ν3•┼⃖🐬",
+  ownername: process.env.OWNER_NAME || "𓄂𐎓⃝🐼мαѕтєя мιη∂ 𒐕꯭꯭𒐕꯭꯭ν3•┼⃖🐬",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -51,11 +51,11 @@ global.email = "";
 global.location = "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
-global.github = process.env.GITHUB || "https://github.com/DeeCeeXxx/QUEEN_ANITA-V2";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "india/Kolkata";
+global.github = process.env.GITHUB || "";
 global.gurl = process.env.GURL || "";
 global.website = process.env.GURL || "";
-global.devs = "2349066528353";
+global.devs = "919883457657";
 global.msg_style = process.env.STYLE || "4";
 global.session_reset = process.env.SS_RESET || "false";
 global.gdbye = process.env.GOODBYE || "false";
@@ -73,7 +73,7 @@ global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "null";
 global.read_status_from = process.env.READ_STATUS_FROM || "null";
 global.api_smd = "https://api-smd-1.vercel.app";
-global.scan = "https://mainv2-f66485a0f702.herokuapp.com/";
+global.scan = "";
 global.isMongodb = false;
 let file = require.resolve(__filename);
 fs.watchFile(file, () => {
